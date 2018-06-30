@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 61807685199380766}
   - component: {fileID: 114928448943773328}
   - component: {fileID: 50350056188642242}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: goodSquare
   m_TagString: square
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ Transform:
   m_GameObject: {fileID: 1736666270455184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.955, y: 0.594, z: 0}
-  m_LocalScale: {x: 0.6053563, y: 0.6053563, z: 0.6053563}
+  m_LocalScale: {x: 0.25643712, y: 0.25643712, z: 0.25643712}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 1
-  axis: 0
+  axis: 1
 --- !u!114 &114928448943773328
 MonoBehaviour:
   m_ObjectHideFlags: 1
