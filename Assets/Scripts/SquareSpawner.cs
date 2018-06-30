@@ -21,7 +21,7 @@ public class SquareSpawner : MonoBehaviour {
     void Update() {
         if (Time.time > nextSpawn)
         {
-            nextSpawn = nextSpawn + (1 / spawnRate);
+            nextSpawn = Time.time + (1 / spawnRate);
 
             float pos = Random.Range(-1.0f, 1.0f);
             int axis = Random.Range(0, 2); // 0 = X, 1 = Y
